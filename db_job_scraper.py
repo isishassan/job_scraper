@@ -61,9 +61,9 @@ IGNORE_TERMS = [
     "bauüberwacher", "oberbau", "oberleitung",
     "gleise", "weichen", "signaltechnik", "leit- und sicherungstechnik",
     # Entry level / student programmes
-    "ausbildung", "duales studium", "praktikum", "werkstudent",
+    "ausbildung", "duales studium", "praktikum", "werkstudent", "trainee",
     # Other
-    "kraftfahrer", "busfahrer",
+    "kraftfahrer", "busfahrer","ingenieur"
 ]
 
 # ─────────────────────────────────────────────
