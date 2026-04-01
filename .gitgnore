@@ -1,7 +1,0 @@
-__pycache__/
-*.pyc
-.env
-*.csv          # don't commit your output data
-venv/
-.DS_Store
-*_checkpoint.json
