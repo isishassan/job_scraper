@@ -1,4 +1,8 @@
 """
+DEPRECATED — superseded by db_scraper.ipynb. Do not use.
+"""
+
+"""
 DB Jobs Scraper & CV Matcher
 Scrapes Deutsche Bahn job listings and scores them against your CV profile.
 Run weekly: python db_job_scraper.py
