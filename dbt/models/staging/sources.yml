@@ -1,0 +1,28 @@
+version: 2
+
+sources:
+  - name: jobs_sqlite
+    schema: main
+    database: jobs_sqlite
+    tables:
+      - name: jobs
+
+models:
+  - name: stg_jobs
+    description: "Staged jobs data cleaned from SQLite source"
+    columns:
+      - name: id
+        tests:
+          - not_null
+      - name: source
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['deutsche_bahn', 'siemens_energy', 'oebb']
+      - name: score
+        tests:
+          - not_null
+      - name: title
+        tests:
+          - not_null
